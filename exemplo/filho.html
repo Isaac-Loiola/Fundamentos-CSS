@@ -5,19 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        
+      /* .fundo-azul > p {
+        background: lightblue;
+        color: white; 
+      }
+
+      .fundo-verde > p{
+        background: lightgreen;
+      }
+
+      div + p{
+        background: indianred;  
+      }
+
+      .fundo-verde + p {
+        background: rgb(175, 54, 255);
+      }
+
+      div ~ p {
+        color: red;
+      } */
+
+      .fundo-verde span > p{
+        color:aquamarine;
+      }
 
     </style>
 </head>
 <body>
-    <div>
+    <div class="fundo-verde">
         <p>Paragrafo 1 dentro da div</p>
         <p>Paragrago 2 dentro da div</p>
         <span>
-            <p>Paragrafo 3 dentro da div, dentro do span </p>
+            <p>Paragrafo dentro da div, dentro do span </p>
         </span>
     </div>
 
-    <p>Paragrafo 4 fora de div</p>
-    <p>Paragrafo 5 fora de div</p>
+    <p>Paragrafo fora de div</p>
+
+
+     <div class="fundo-verde">
+        <p>Paragrafo 3 dentro da div</p>
+        <p>Paragrago 4 dentro da div</p>
+        <span>
+            <p>Paragrafo dentro da div, dentro do span </p>
+        </span>
+    </div>
+
+    <p>Paragrafo fora de div</p>
+
+
+     <div class="fundo-azul">
+        <p>Paragrafo 5 dentro da div</p>
+        <p>Paragrago 6 dentro da div</p>
+        <span>
+            <p>Paragrafo dentro da div, dentro do span </p>
+        </span>
+    </div>
+
+    <p>Paragrafo fora de div</p>
+
+
+
+     <div class="fundo-roxo">
+        <p>Paragrafo 7 dentro da div</p>
+        <p>Paragrago 8 dentro da div</p>
+        <span>
+            <p>Paragrafo dentro da div, dentro do span </p>
+        </span>
+    </div>
+
+    <p>Paragrafo 9 fora de div</p>
+    <p>Paragrafo 10 fora de div</p>
+
 </body>
 </html>

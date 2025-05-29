@@ -1,0 +1,27 @@
+.linear{
+    width: 200px;
+    height: 00px;
+    background: palevioletred;
+    /* background-image: url(../imagens/veioTestCss.jpg); */
+    background-image: linear-gradient(pink, palevioletred);
+    border-radius: 15px;
+    padding:initial;
+}
+
+/* .repeating{
+        width: 200px;
+        height: 200px;
+        background: black;
+        background-image: Repeating-linear-gradiente(to top, yellow 0 20px, black 20px 40px);
+} */
+
+.rediImagens{
+        width: 200px;
+        height: 500px;
+        background-image: url(../imagens/veioHavan.webp), url(../imagens/veioTestCss.jpg);
+        /* background-size: cover; -- posição/tamanho do fundo*/
+        /* background-size: 100% 100%; -- */
+        background-size: 100px 30px, 50px, 10px;
+        margin: auto;
+
+}

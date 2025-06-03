@@ -10,8 +10,8 @@
 }
 
 div{
-        width: 200px;
-        height: 200px;
+         width: 500px;
+        height: 500px;
         border: 1px solid black;
 }
 
@@ -22,17 +22,85 @@ div{
         background-image: Repeating-linear-gradiente(to top, yellow 0 20px, black 20px 40px);
 } */
 
+#havan{
+        text-align: center;
+}
+
+body{
+        height:  200vh;
+}
+
 .rediImagens{
-        width: 300px;
-        height: 300px;
+        width: 500px;
+        height: 500px;
         background-image: url(../imagens/veioHavan.webp);
         /* background-size: cover; -- posição/tamanho do fundo*/
         /* background-size: 100% 100%; -- */
-        background-size: 200px;
+        background-size: cover ;
+        background-position:  center;
         /* background-repeat:  repeat-x ,   repeat-y; */
         background-repeat: no-repeat;
-        background-position: center 10px;
-        
+        /* background-repeat: space ; */
+        /* background-repeat: round; */
+
+        background-position: bottom 10px right 50px;
         margin: auto;
 
 }
+
+.attachement{
+        margin: auto;
+        width: 500px;
+        height: 500px;
+        color: #FFFFFF;
+        background-image: url(../imagens/mamaquinho.jpg);
+        background-size: cover;
+        /* background-attachment: fixed; */
+        /* background-attachment: scroll; */
+        background-attachment: scroll;
+
+        overflow: auto;
+}
+
+.origin{       
+        margin: auto;
+        width: 500px;
+        height: 500px;
+        background-image: url(../imagens/mamaquinho.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 10px solid #000000;
+        background-size:  100% 100%;
+        border-style: dashed;
+        padding: 10px;
+
+        /* origem em que a imagem irá começar no container */
+        /* background-origin: content-box; */
+        /* background-origin: border-box; */
+        background-origin: padding-box;
+}
+
+.clip label{
+        color: transparent;
+        font-size:  40px;
+        font-weight: 900;
+}
+
+.clip{
+        background-image: url(../imagens/mamaquinho.jpg);
+        padding: auto;
+        text-align: center;
+        margin: auto;
+        -webkit-background-clip: text;
+}
+
+.mesclagem{
+        background: #f00;
+        background-image: url(../imagens/mamaquinho.jpg);
+        background-size: cover;
+        background-blend-mode: multiply;
+        
+}
+
+
+

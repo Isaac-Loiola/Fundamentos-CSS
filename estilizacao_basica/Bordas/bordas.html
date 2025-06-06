@@ -7,10 +7,13 @@
 
     <style>
 
-        .exemplo
-        {
+        div{
             width: 200px;
             height: 200px;
+        }
+        .exemplo
+        {
+  
             margin: auto;
             background: url(../imagens/mamaquinho.jpg);
             background-size: 200px;
@@ -28,15 +31,20 @@
 
         .exemplo01
         {
-            width: 100px;
-            height: 100px;
             margin: auto;
             background: #000 url(../imagens/veioTestCss.jpg);
-            background-size: 100px 100px;
+            background-size: 200px 200px;
             border: 10px solid #d09430;
             border-bottom-width: 40px;
             border-radius: 10px;
             
+        }
+
+        .exemplo03{
+            background: #000;
+            margin:auto;
+            border-image-source: url(../imagens/mamaquinho.jpg);
+            border: solid 30px;
         }
 
     </style>
@@ -63,5 +71,26 @@
     Seu josé
     <div class="exemplo01">
     </div>
+
+    <br>
+    <br>
+
+    <h2>Bordas com Imagens</h2>
+
+    <ul>
+        <li>border-image-source</li>
+        <li>border-image-width</li>
+        <li>border-image-repeat</li>
+        <li>border-image-repeat</li>
+        <li>border-image-slice</li>
+    </ul>
+
+    <div class="exemplo03">
+    </div>
+
+    <div class="exemplor04">
+    </div>
+
+    <hr>
 </body>
 </html>

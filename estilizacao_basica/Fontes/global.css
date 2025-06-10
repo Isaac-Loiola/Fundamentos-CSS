@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../../assets/fontes/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kapakana:wght@300..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+p{
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+h1{
+    font-family: Kapakana;
+}

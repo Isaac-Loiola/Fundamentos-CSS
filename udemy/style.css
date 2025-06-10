@@ -1,0 +1,36 @@
+.texto-align{
+    width: 300px;
+    height: 150px;
+    border: solid #F00 2px;
+    border: border-bo;
+    text-align: center;
+}
+
+.texto-align h2{
+    border-bottom: solid #F00 2px;
+    padding-bottom: 10px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-though{
+    text-decoration: line-through;
+}
+
+.remove-underline{
+    text-decoration: none;
+    color: #000;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+.spacing{
+    letter-spacing: 5px;
+}

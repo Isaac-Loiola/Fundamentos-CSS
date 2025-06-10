@@ -34,3 +34,24 @@
 .spacing{
     letter-spacing: 5px;
 }
+
+/* display */
+.inline-box{
+    width: 100px;
+    height: 100px;
+    background-color: #2F4;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block{
+    background-color: #2F4;
+    margin: 10px ;
+    display: block;
+}
+
+/* Escondendo elemento!! */
+.me-encontre{
+    background-color: #F00;
+    display: none;
+}
